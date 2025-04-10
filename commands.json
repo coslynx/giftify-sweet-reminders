@@ -1,0 +1,9 @@
+{
+  "startDevServer": "npm run dev",
+  "buildProduction": "npm run build",
+  "lintCode": "npm run lint",
+  "previewProduction": "npm run preview",
+  "installDependencies": "npm install",
+  "firebaseLogin": "firebase login",
+  "firebaseDeployHosting": "firebase deploy --only hosting"
+}
