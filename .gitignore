@@ -1,0 +1,31 @@
+# Node.js / npm dependencies
+node_modules/
+
+# Build output directory
+dist/
+
+# Environment variables
+# Ignore all .env files, but allow .env.example template
+.env
+.env.*
+!.env.example
+
+# Log files
+npm-debug.log*
+yarn-error.log
+*.log
+
+# Cache directories and files
+.vite/
+.eslintcache
+
+# Test coverage directory
+coverage/
+
+# IDE/Editor configuration files
+.vscode/
+.idea/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
